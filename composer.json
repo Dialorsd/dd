@@ -1,0 +1,15 @@
+{
+    "name": "bmax/laravelpdfgenerator",
+    "description": "A Laravel package for custom PDFs and notifications",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "bmax\\laravelpdfgenerator\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "fpdf/fpdf": "^1.82"
+    }
+
+}
